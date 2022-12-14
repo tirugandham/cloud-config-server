@@ -6,8 +6,8 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
-    
-    
+
+
 microservice:
   payment-service:
     endpoints:
@@ -17,7 +17,3 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
- uber-service:
-    endpoints:
-      endpoint:
-        uri: http://UBER-SERVICE/uber/savedriver    
