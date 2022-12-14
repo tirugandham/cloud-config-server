@@ -25,5 +25,5 @@ microservice:
 razzer-service:
     endpoints:
       endpoint:
-        uri: http://RAZZER-SERVICE/razorpay/createPayment    
+        uri: http://RAZZER-SERVICE/razorpay/doPay    
 
