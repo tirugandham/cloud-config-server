@@ -21,9 +21,3 @@ microservice:
     endpoints:
       endpoint:
         uri: http://UBER-SERVICE/uber/savedriver    
-
-razzer-service:
-    endpoints:
-      endpoint:
-        uri: http://RAZZER-SERVICE/razorpay/doPay    
-
