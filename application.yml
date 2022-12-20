@@ -17,4 +17,8 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
+  paypal-service:
+    endpoints:
+      endpoint:
+        uri: http://PAYPAL-SERVICE/paypal/pay
   
